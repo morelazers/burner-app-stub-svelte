@@ -50,7 +50,6 @@
 <img src={qrsrc} />
 <button
   on:click={() => {
-    console.log($status);
     if ($status == 'INITIALISED') {
       dapp.roll();
     }
